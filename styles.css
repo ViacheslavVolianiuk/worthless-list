@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 80px;
+  background-color: rgb(46, 126, 197);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.error {
+  padding: 10px;
+  color: crimson;
+  border: 1px dotted crimson;
+}
+
+.success {
+  padding: 10px;
+  color: limegreen;
+  border: 1px dotted limegreen;
+}
+
+.title {
+
+  color: rgb(0, 255, 0);
+  letter-spacing: 2px;
+}
+
+.form {
+  padding-left: 5px;
+  font-size: 24px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+
+}
+
+li {
+  max-width: 250px;
+  min-width: 250px;border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-elem {
+  cursor: pointer;
+  height: 40px;
+  max-width:max-content;
+  border-radius:5px;
+  cursor: pointer;
+
+}
+.click-to-delete p {
+  position: absolute;
+  font-size: 46px;
+  text-transform: uppercase;
+  top:65px;
+  left:80px;
+}
+
+button {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color:#fff
+  display: inline-block; 
+  height: 80px;
+  width: 200px;
+  border: none;
+  background-color: rgb(235, 6, 6);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: yellow;
+}

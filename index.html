@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      li {
+        font-size: 22px;
+        max-width: 200px;
+        list-style: none;
+        padding: 8px;
+        margin: 8px auto;
+        background-color: rgb(181, 237, 241);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">List without any purpose</h1>
+
+      <ul class="list">
+        <li>buy milk</li>
+        <li>read a book</li>
+        <li>play the guitar</li>
+        <li>pay the bills</li>
+      </ul>
+
+      <form>
+        <input
+          class="form"
+          type="text"
+          placeholder="Enter text to add"
+          onblur="getVal()"
+        />
+      </form>
+
+      <button>click to add</button>
+
+      <div class="click-to-delete">
+        <p class="click-to-delete">click to delete &#8658;</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
